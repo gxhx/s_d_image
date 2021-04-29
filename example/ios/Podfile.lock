@@ -1,0 +1,31 @@
+PODS:
+  - Flutter (1.0.0)
+  - s_d_image (0.0.1):
+    - Flutter
+    - SDWebImage
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - s_d_image (from `.symlinks/plugins/s_d_image/ios`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  s_d_image:
+    :path: ".symlinks/plugins/s_d_image/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  s_d_image: 6b88936f122b6650e85058247083145889f4c033
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.10.1
