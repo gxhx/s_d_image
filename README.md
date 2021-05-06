@@ -1,6 +1,8 @@
 # s_d_image
 
-A new flutter plugin project.
+A new flutter plugin project. 
+基于SDWebImage 与Flutter 纹理共享方案Demo 
+仅有iOS端
 
 ## Getting Started
 
