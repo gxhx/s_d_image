@@ -117,7 +117,7 @@
     
     CGColorSpaceRef rgbColorSpace = CGColorSpaceCreateDeviceRGB();
     
-    uint32_t bitmapInfo = kCGImageAlphaNoneSkipFirst | kCGBitmapByteOrder32Host;
+    uint32_t bitmapInfo = kCGImageAlphaPremultipliedFirst | kCGBitmapByteOrder32Host;
 
     CGContextRef context = CGBitmapContextCreate(pxdata, frameWidth, frameHeight, 8, CVPixelBufferGetBytesPerRow(pxbuffer), rgbColorSpace, bitmapInfo);
     NSParameterAssert(context);

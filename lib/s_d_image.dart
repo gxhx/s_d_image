@@ -64,7 +64,11 @@ class _SDImageState extends State<SDImage> {
             child: Texture(
               textureId: _textureId,
             ),
+            color: Colors.transparent,
           )
-        : Container(color: Colors.grey);
+        : Container(
+            color: Colors.grey,
+            width: this.widget.width,
+            height: this.widget.height);
   }
 }
